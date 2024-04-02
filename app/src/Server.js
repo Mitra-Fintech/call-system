@@ -185,9 +185,9 @@ if (serverRecordingEnabled) {
 // html views
 const views = {
     about: path.join(__dirname, '../../', 'public/views/about.html'),
-    landing: path.join(__dirname, '../../', 'public/views/landing.html'),
+    landing: path.join(__dirname, '../../', 'public/views/landingv2.html'),
     login: path.join(__dirname, '../../', 'public/views/login.html'),
-    newRoom: path.join(__dirname, '../../', 'public/views/newroom.html'),
+    newRoom: path.join(__dirname, '../../', 'public/views/newroomv2.html'),
     notFound: path.join(__dirname, '../../', 'public/views/404.html'),
     permission: path.join(__dirname, '../../', 'public/views/permission.html'),
     privacy: path.join(__dirname, '../../', 'public/views/privacy.html'),

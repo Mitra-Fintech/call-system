@@ -4,15 +4,15 @@ class LocalStorage {
     constructor() {
         this.MEDIA_TYPE = {
             audio: 'audio',
-            video: 'video',
-            audioVideo: 'audioVideo',
+            // video: 'video',
+            // audioVideo: 'audioVideo',
             speaker: 'speaker',
         };
 
         this.INIT_CONFIG = {
             audio: true,
-            video: true,
-            audioVideo: true,
+            video: false,
+            audioVideo: false,
         };
 
         this.SFU_SETTINGS = {

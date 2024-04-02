@@ -478,7 +478,7 @@ async function refreshMyAudioDevices() {
 async function initEnumerateVideoDevices() {
     // allow the video
     await navigator.mediaDevices
-        .getUserMedia({ video: true })
+        .getUserMedia({ video: false })
         .then(async (stream) => {
             await enumerateVideoDevices(stream);
             isVideoAllowed = true;
